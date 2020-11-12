@@ -44,14 +44,16 @@ export default class page1 extends AbstractCuteScene {
                 const player = app.getLayerManager().getLayer('player');
                 if (item === "item 1") {
                     app.getSceneOpener().open(player, () => {
-                        let url = 'http://cdn-vspp-pcs1.online.meo.pt:80/sdash/LIVE$RTP_2/index.mpd,vxttoken=cGF0aFVSST0lMmZzZGFzaCUyZkxJVkUlMjRSVFBfMiUyZmluZGV4Lm1wZCUyZiomZXhwaXJ5PTE2MDUyMTM0MDcmeDp1c2VyPTUwNDI2ODA3OSZ4OmlwPTg1LjI0My45MC4xNzYsNTRhNTg2NjlkM2MzZTZjZjE2ZjkwMWIzYmRiYzhhMDJjN2NiZGM5M2M0ZWU5OWU1NTczY2VhYmJhYzJiNTZiZg==/Manifest?device=ATV_Live&start=LIVE&end=END'
-                        player.play(url);
+                        //let url = 'http://cdn-vspp-pcs1.online.meo.pt:80/sdash/LIVE$RTP_2/index.mpd,vxttoken=cGF0aFVSST0lMmZzZGFzaCUyZkxJVkUlMjRSVFBfMiUyZmluZGV4Lm1wZCUyZiomZXhwaXJ5PTE2MDUyMTM0MDcmeDp1c2VyPTUwNDI2ODA3OSZ4OmlwPTg1LjI0My45MC4xNzYsNTRhNTg2NjlkM2MzZTZjZjE2ZjkwMWIzYmRiYzhhMDJjN2NiZGM5M2M0ZWU5OWU1NTczY2VhYmJhYzJiNTZiZg==/Manifest?device=ATV_Live&start=LIVE&end=END'
+                        let url = 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4'
+                      //  player.play(url);
                     });
                 }
                 if (item === "item 2") {
                     app.getSceneOpener().open(player, () => {
-                        let url = 'http://cdn-vspp-pcs1.online.meo.pt:80/sdash/LIVE$RTP_1/index.mpd,vxttoken=cGF0aFVSST0lMmZzZGFzaCUyZkxJVkUlMjRSVFBfMSUyZmluZGV4Lm1wZCUyZiomZXhwaXJ5PTE2MDUxNjU0NDImeDp1c2VyPTUwNDI2ODA3OSZ4OmlwPTg1LjI0My45MC4xNzYsODFlOGRkMWEwYTNjOTYxOTg3MDY1Y2YyOGU1NTQ0MjU0NGIzYTJkNmU4MWYwMjJhYjIxNjA5YjVkOWU2OGFkNg==/Manifest?device=ATV_Live&start=LIVE&end=END'
-                        player.play(url);
+                        //let url = 'http://cdn-vspp-pcs1.online.meo.pt:80/sdash/LIVE$RTP_1/index.mpd,vxttoken=cGF0aFVSST0lMmZzZGFzaCUyZkxJVkUlMjRSVFBfMSUyZmluZGV4Lm1wZCUyZiomZXhwaXJ5PTE2MDUxNjU0NDImeDp1c2VyPTUwNDI2ODA3OSZ4OmlwPTg1LjI0My45MC4xNzYsODFlOGRkMWEwYTNjOTYxOTg3MDY1Y2YyOGU1NTQ0MjU0NGIzYTJkNmU4MWYwMjJhYjIxNjA5YjVkOWU2OGFkNg==/Manifest?device=ATV_Live&start=LIVE&end=END'
+                        let url = 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+                      //  player.play(url);
                     });
                 }
 

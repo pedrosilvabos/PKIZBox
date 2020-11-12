@@ -1,8 +1,18 @@
 {{+ import Button from "zombie274/widgets/button/button"; }}
+{{+ import BaseList from "ui/widgets/base-list/base-list"; }}
 
 
+{{% BaseList, {options: {padding:35, lineSize: 1}, isVertical: true}, baseListVertical }}
+<div class="horizontalList" data-export-id="{{@sliderWrapper}}">
+
+    {{% BaseList, {options: {padding: 5, lineSize: 1}, itemClass: ''}, baseList }}
+</div>
 
 <div class="row history">
-	{{% Button, 'Back in history', backButton }}
-	{{% Button, 'Forward in history', forwardButton }}
+    {{% Button, 'Back in history', backButton }}
+    {{% Button, 'Forward in history', forwardButton }}
+</div>
+<div >
+    <div  class="Info" data-export-id="{{@message}}"></div>
+
 </div>

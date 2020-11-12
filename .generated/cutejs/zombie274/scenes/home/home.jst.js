@@ -1,4 +1,5 @@
 import * as cutejs from 'cutejs-lib/cute-library';
+import Greeting from "zombie274/widgets/greeting/greeting";
 import Button from "zombie274/widgets/button/button";
 
 /**
@@ -72,7 +73,7 @@ export function render(opt_templateParams, opt_options) {
 		}
 	};
 	var __p = '';
-	__p += '\n<h1>Empty "zombie274" project!</h1>\n\n\n\n<div class="row scenes">\n\t' +
+	__p += '<h1>Empty "zombie274" project!</h1>\n\n\n\n<div class="row scenes">\n\t' +
 	 cutejs.include('component', Button,  'Player', "playerButton", templatesData) +
 	'\n</div>\n<div class="row history">\n\t' +
 	 cutejs.include('component', Button,  'Back in history', "backButton", templatesData) +

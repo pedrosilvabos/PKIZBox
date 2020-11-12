@@ -21,7 +21,7 @@ export default class Application extends BaseApplication {
 	 */
 	home() {
 		this.clearHistory();
-		const homeScene = this.getLayerManager().getLayer('page1');
+		const homeScene = this.getLayerManager().getLayer('player');
 
 		return this.getSceneOpener().open(homeScene);
 	}
