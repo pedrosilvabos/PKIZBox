@@ -1,0 +1,48 @@
+/* page1 scene
+*******************************/
+.horizontalList {
+    left: 500px;
+    position: absolute;
+    top: 100px;
+}
+#slide {
+    opacity: 1;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 2s forwards;
+    animation-delay: 0s;
+}
+
+@keyframes slide {
+    1% { margin-top: -80%;
+        opacity: 0}
+}
+.s-page-1 .matrix {
+    display: inline-block;
+}
+.s-page-1 .Info {
+    left: 350px;
+    position: absolute;
+    top: 340px;
+    font-size: 45px;
+    font-size: 45px;
+
+}
+.s-page-1 .w-zbui-base-list__wrap {
+}
+.s-page-1 .w-zbui-base-list .w-zbui-base-list-item  {
+  padding: 20px;
+    width: 161px;
+    font-size: 45px;
+}
+.s-page-1 .w-zbui-base-list ._active {
+    background-color: red;
+
+}
+.s-page-1 .w-zbui-base-list  ._is-vertical ._active{
+    padding: 100px;
+
+}
+.s-page-1 .w-zbui-base-list ._is-vertical{
+    background-color: blue
+}

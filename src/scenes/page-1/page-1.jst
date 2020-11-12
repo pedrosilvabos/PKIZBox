@@ -1,0 +1,15 @@
+{{+ import BaseList from "ui/widgets/base-list/base-list"; }}
+
+{{% BaseList, {options: {padding:35, lineSize: 1}, isVertical: true}, baseListVertical }}
+
+<div class="horizontalList" data-export-id="{{@sliderWrapper}}">
+
+    {{% BaseList, {options: {padding: 5, lineSize: 1}, itemClass: ''}, baseList }}
+</div>
+<div >
+    <div  class="Info" data-export-id="{{@message}}"></div>
+
+</div>
+
+
+
